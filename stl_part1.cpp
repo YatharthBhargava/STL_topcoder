@@ -69,4 +69,21 @@ int main(){
     void modify_vector(vector< int >& v) { // Correct
     v[0]++;
     }
+//
+    //Pairs*Pairs*pairs*Pairs*Pairs
+//
+    pair< int, int > s;// s is a pair of two integers
+    pair<string, pair<int, int> > k;// is a pair of string and two integers
+    //accessing the info from k;
+    string s = k.first;
+    int x = k.second.first;
+    int y = k.second.second;
+    //untill specified sorting is done using the first element and if the first
+    //element of two pairs are equal then only will the sorting will be done using the second element.
+
+    //For example, if you want to sort the array of integer points so that they form a polygon, it’s a good idea to put them to the vector< pair<double
+    //, pair<int,int> >, where each element of vector is { polar angle, { x, y } }.
+    // One call to the STL sorting function will give you the desired order of points.
+    //       Also pair are very widely used with associative containers
+//    
 }
